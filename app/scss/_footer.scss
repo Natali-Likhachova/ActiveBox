@@ -1,0 +1,38 @@
+/*Footer
+======================= */
+.footer{
+  background-color: #313454;
+}
+.footer__inner{
+  padding: 70px 0;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer__block{
+  width: 33.33333%;
+  padding: 0 15px;
+
+  text-align: center;
+}
+.footer__title{
+  margin-bottom: 10px;
+
+  font-size: 14px;
+  font-weight: 700;
+  color: $top-color;
+  text-transform: uppercase;
+}
+.footer__address{
+  font-size: 14px;
+  line-height: 1.5;
+  font-style: normal;
+  opacity: 0.5;
+  color: $top-color;
+}
+.footer__text{
+  font-size: 14px;
+  line-height: 1.5;
+  opacity: 0.5;
+  color: $top-color;
+}

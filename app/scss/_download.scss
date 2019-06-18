@@ -1,0 +1,24 @@
+/*Download
+======================= */
+.download{
+  margin: 90px 0;
+
+  text-align: center;
+}
+.download__title{
+  margin-bottom: 10px;
+
+  font-family: $main-font;
+  font-size: 28px;
+  font-weight: 300;
+  color: #2d3033;
+}
+.download__text{
+  margin-bottom: 30px;
+
+  font-family: $main-font;
+  font-size: 13px;
+  color: #2d3033;
+  font-weight: 700;
+  text-transform: uppercase;
+}

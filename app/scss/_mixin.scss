@@ -1,0 +1,32 @@
+@mixin logo{
+  font: {
+    family: $main-font;
+    size: 32px;
+    weight: 700;
+  }
+  color: $top-color;
+  line-height: 32px;
+  text-transform: uppercase;
+  letter-spacing: -1.28px;
+
+}
+@mixin menu{
+  font: {
+    family: $main-font;
+    size: 14px;
+    weight: 600;
+  }
+  color: $main-color;
+  line-height: 60px;
+  text-transform: uppercase;
+}
+@mixin headline-page{
+  font: {
+    family: $main-font;
+    size: 20px;
+    weight: 700;
+  }
+  color: $top-color;
+  line-height: 40px;
+  text-transform: uppercase;
+}
